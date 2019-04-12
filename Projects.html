@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="projects.processed.css">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="header">
+  <h1 class="serif">Projects</h1>
+  </div>
+</head>
+<body>
+<header>
+<nav>
+<div class="topnav">
+ <ul style="list-style-type: none;">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Projects.html">Projects</a></li>
+  <li><a href="Philosophy.html">Philosophy</a></li>
+  <li><a href="Members.html">Members</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+  <li><a href="Donation.html">Donations</a></li>
+ </ul>
+  </div> 
+  </nav>
+  </header>
+ <div class="row"> 
+  
+   
+     <!-- Projects Slideshow -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with caption text -->
+  <div class="mySlides fade">
+    <img src="https://i.postimg.cc/j2T1MXBP/20190117-154417-2.jpg">
+    <div class="text"> Feeding the fish so they can produce waste, which gives the plants nutrients, for aquaponics.</div>
+  </div>
+
+  <div class="mySlides fade">   
+    <img src="https://i.postimg.cc/PrsW6gGm/20190117-154634.jpg">
+    <div class="text">Mixing dry herbs with oil to make infused oils.</div>
+  </div>
+
+  <div class="mySlides fade"> 
+    <img src="https://i.postimg.cc/BQb9rx1C/hydroponics.jpg">
+    <div class="text">Cutting roots for plants in hydroponics.</div>
+  </div>
+  
+  <div class="mySlides fade"> 
+    <img src="https://i.postimg.cc/bwbzZ36q/1621-A18-B-1-D55-41-CC-9827-A9634-D1-AE647.jpg" style= "height: 500px;">
+    <div class="text">Flattening the garden bed to prepare to plant squash. </div>
+  </div>
+
+  <div class="mySlides fade"> 
+    <img src="https://i.postimg.cc/bJhd0Gps/Screen-Shot-2019-04-11-at-2-23-32-PM.png">
+    <div class="text"> Spraying the strawberry plants with bug killer.</div>
+  </div>
+  
+  <div class="mySlides fade"> 
+    <img src="https://i.postimg.cc/htRFtVrz/Screen-Shot-2019-04-11-at-2-25-26-PM.png"> 
+    <div class="text">Cutting roots from the tube the hydroponic plants have produced</div>
+  </div>
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+     
+     
+ 
+ <!-- javascript for slideshow --> 
+  <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+   
+   <footer>
+     <h6 style=" color: white;">help</h6>    
+   </footer>
+  
+   </body>
