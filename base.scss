@@ -1,0 +1,327 @@
+/*header*/
+h1 {
+text-align: center;
+font-size: 97px;
+font-family: "Comic Sans MS";
+color: #ffffff;
+}
+
+h2 {
+  overflow: visible;
+  font-family: "Comic-sans-MS", Comic, serif;
+}
+
+h3{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Comic sans MS";
+  border: white 5px 0px solid;
+  background-color: rgba(17,17,17,0.8);
+  
+}
+/*Nav Bar*/
+.topnav {
+ margin-top: 5px;
+ background-color: rgba(17,17,17,0.8);
+}
+
+.topnav a:link {
+    color: white;  
+    text-decoration: none;
+    display: block;
+}
+
+.topnav a:visited { 
+    color: white;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: inline;
+    margin-right: 128px;
+    font-family: "Comic Sans MS";
+}
+
+ .topnav a:hover {
+    background-color: #111;
+}
+
+/*Header*/
+.header {
+  background-image: url("https://tehandon.com/wp-content/uploads/2015/11/0630150947a-1024x576.jpg");
+  background-size: 100% 100%;
+  margin-top: -65px;
+  margin-bottom: -67px;
+  height: 375px;
+  padding: 30px;
+}
+
+body {
+ background-image: url("https://i.postimg.cc/Dysj6D9k/wood.jpg");
+ margin: 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+/*Home Columns*/
+.column-side {
+  float: right;
+  margin-top: 0px;
+  width: 30%;
+  background-color: lightgreen;
+  height: 1000px;
+}
+
+.column-middle {
+  float: left;
+  width: 70%;
+  background-image:  url("https://i.postimg.cc/Dysj6D9k/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Paragraph*/
+p {
+  font-size: 60px; 
+  font-family:"Comic Sans MS", comic sans, sans-serif;	
+  color: white;
+  border: black 0px solid;
+  background-color: rgba(17,17,17,0.8);
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  font-size: 20px;
+  margin: 10px auto;
+  width: 75%;
+}
+
+  .Donations {
+   font-size: 30px;
+   width: 90%;
+   height: auto;
+   float: none;
+   position: relative;
+   text-align: center;
+   padding: 0px;
+   background-color: rgba(17,17,17,0.8);
+}
+
+.Donationss {
+  font-size: 30px;
+  width: 90%;
+  height: auto;
+  float: none;
+  position: relative;
+  text-align: center;
+} 
+
+
+  footer {
+   background-color: grey;
+   height: 100%;
+}
+
+@media (max-width:524px) {
+  
+  h1 { 
+    font-size: 4em; 
+  }
+  
+  p { 
+   font-size: 14px; 
+  } 
+  
+  li a { 
+   font-size: 1.25rem; 
+  } 
+  
+  h2 { 
+   font-size: 20px; 
+  } 
+  
+  .topnav {  
+   background-color: #3b3a30;
+   margin-top: 67px; 
+  } 
+  
+  .header { 
+   background-image: url("https://i.postimg.cc/xTTs7mnb/eagle-earth.jpg");
+   width:100%; 
+   height:300px; 
+  }
+  
+  .responsive { 
+   width: 100%; 
+   max-width: 400px; 
+   height: auto; 
+   margin-left: 0px; 
+   margin-top: 0px;
+  } 
+  
+  .column-middle {
+   float: right;
+}
+
+  .Donations {
+   font-size: 15px;
+  }
+  
+  h3 {
+   font-size: 23px;
+  }
+} 
+
+@media (min-width: 525px) { 
+  .header { 
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxUO4Vv6ljuBT7n3uBtgRnjgLsU-GMwXfqc-Xa4xQKEm-ZddTudg"); 
+  } 
+  
+   h1 { 
+   font-size: 5em; 
+  } 
+  
+  p { 
+   font-size: 17px; 
+  }
+  
+  h2 { 
+    font-size: 20px; 
+  } 
+  
+  .Donations {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 20px;  
+  }
+  
+  .topnav {  
+    background-color: #3b3a30;
+  }
+  
+  li a {
+   padding: auto;
+   margin: auto;
+   position: relative;  
+  }
+}
+
+@media (min-width: 800px){ 
+  
+  h1 {
+    font-size: 97px;
+  }
+  
+  p { 
+    font-size: 23px; 
+  } 
+  
+  h2 { 
+    font-size: 30px; 
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  li a {
+    margin-left: 6px;
+    padding: 20px 5px;
+  }
+  
+  li {
+    padding: 0px 20px;
+  }
+  
+  .topnav {  
+    background-color: #3b3a30;
+  
+  }
+  
+  .Donations {
+    font-size: 25px;
+  }
+  
+} 
+@media (min-width:900px) { 
+  p{ 
+    font-size: 30px; 
+    line-height: 1.5; 
+  } 
+  
+   li a { 
+    font-size: 15px; 
+    line-height: 1.5; 
+    margin-right: 100px;
+    padding: 10 20;
+  } 
+  
+  .topnav { 
+   opacity: 0.6;
+  } 
+  
+  .header {
+    background-image: url("https://quiethut.com/wp-content/uploads/2017/10/purple-flower.jpg" ); 
+  } 
+  
+  h1 { 
+    color: white; 
+  } 
+  
+  h2 { 
+    font-size: 30px; 
+  } 
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+   li a { 
+    font-size: 15px; 
+    line-height: 1.5; 
+    margin-right: 180px;
+    margin-left: 6px;
+    padding: 20px 10px;
+  } 
+  
+  li {
+    padding: 0px 20px;  
+  }
+  
+ }    
