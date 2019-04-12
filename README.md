@@ -35,10 +35,3 @@ Donations Page
 Our Struggles 
 
 We have had many difficulties when it came to making this website. Starting out on the website was a slow process due to the way we wanted our columns for our home page at the time. We also kept making small errors a lot, like typos, at the beginning of the project as well, but it happened less as we went on into the project.We also had problems putting the pictures, we had taken, onto the website. We ended up finding a website called Post Image that helped resolve that problem. We also struggled making the website responsive for mobile and tablets/ smaller computers, but we eventually figured out how to make it responsive.
-
-
-
-
-
-
-  
